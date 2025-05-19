@@ -69,6 +69,6 @@ for _, row in matched_edges.iterrows():
         ).add_to(m)
 
 # --- SAVE MAP ---
-output_file = "city_street_heatmap.html"
+output_file = "parking_tickets/city_street_heatmap.html"
 m.save(output_file)
 print(f"Map saved to {output_file}")
